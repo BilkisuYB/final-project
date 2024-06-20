@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Website</title>
+  <style>
+
+header {
+    background-color: #f8d7da;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+nav {
+    background-color: #9a5409;
+}
+
+nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+footer {
+    background-color: #8a5208;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 10px 0;
+    
+}
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-image: url(https://cdn.pixabay.com/photo/2012/11/21/11/14/coffee-66850_1280.jpg);
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: rgb(150, 88, 8);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(3, 1, 1);
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+
+  </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+        <div class="menu">
+          <main>
+            <section id="menu">
+                <h1>Menu</h1>
+                <div id="menu-container">
+                    <p class="established">Est. 2024</p>
+                    <hr>
+                    <section>
+                      <h2>Coffee</h2>
+                      <article class="item">
+                        <p class="flavor">French Vanilla</p><p class="price">39.00</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">Caramel Macchiato</p><p class="price">37.75</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">
+                            Cinnamon</p><p class="price">36.50</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">Hazelnut</p><p class="price">40.00</p>
+                      </article>
+                      <article class="item">
+                        <p class="flavor">Chocolate</p><p class="price">40.50</p>
+                        <p class="flavor">Mocha</p><p class="price">40.50</p>
+                        <p class="flavor">Amaretto</p><p class="price">50.50</p>
+                      </article>
+                </div>
+            </section>
+            <h2>Desserts</h2>
+              <article class="item">
+                <p class="dessert">Donut</p><p class="price">19.50</p>
+              </article>
+              <article class="item">
+                <p class="dessert">Cherry Pie</p><p class="price">28.75</p>
+              </article>
+              <article class="item">
+                <p class="dessert">Cheesecake</p><p class="price">30.00</p>
+              </article>
+              <article class="item">
+                <p class="dessert">Creme Brulee</p><p class="price">29.50</p>
+                <p class="dessert">Cinnamon Roll</p><p class="price">29.50</p>
+                <p class="dessert">Apple Pie</p><p class="price">29.50</p>
+              </article>
+            </section>
+            <section>
+                <h2>Drinks</h2>
+                 <article class="item">
+                  <p class="flavor">Rosemary-and-Ginger Mule</p><p class="price">3.00</p>
+                </article>
+                <article class="item">
+                  <p class="flavor">Peach Lemonade</p><p class="price">3.75</p>
+                </article>
+                <article class="item">
+                  <p class="flavor">Non-Alcoholic Margarita Mocktail</p><p class="price">3.50</p>
+                </article>
+                <article class="item">
+                  <p class="flavor">Strawberry Spritzers</p><p class="price">4.00</p>
+                  <p class="flavor">Lemonade Iced Tea</p><p class="price">4.00</p>
+                  <p class="flavor">Big-Batch Mulled Cider</p><p class="price">4.00</p>
+                </article>
+                <article class="item">
+                  <p class="flavor">Sparkling Punch</p><p class="price">4.50</p>
+                </article>
+            </section>
+
+  <main>
+    
+    <section id="about">
+      <h1>About Us</h1>
+      <p>Welcome to our Cafe! We're passionate about serving delicious Coffee and drinks and providing excellent customer service.</p>
+    </section>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <p>Phone: 07045779657</p>
+      <p>Email: Yahbiltopup@gmail.com</p>
+      <p>Address: 123 road, Katsina, Nigeria</p>
+    </section>
+    <footer>
+      <p>&copy; 2024 Yahbiltopup cafe. All rights reserved.</p>
+  </footer>
+  </main>
+  <script>
+    const menuItems = document.querySelectorAll('.menu-item');
+
+menuItems.forEach(item => {
+    item.addEventListener('click', () => {
+        alert(`You selected: ${item.querySelector('h3').textContent}`);
+    });
+});
+  </script>
+    
+</body>
+</html>
